@@ -1,0 +1,19 @@
+
+body {
+    background-color: #1b1a1b;
+    color: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+blockquote {
+    text-transform: uppercase;
+}
+
+.wrapper {
+    width: 1200px;
+    padding: 30px;
+    margin: 0 auto;
+}

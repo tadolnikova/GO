@@ -11,3 +11,20 @@
    background-color: #440F51;
     color: white;
 }
+.list-css:after {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/open-puple.svg");
+    background-size: contain;
+}
+
+.list-css:nth-child(even):after {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/open.svg");
+    background-size: contain;
+}

@@ -18,6 +18,7 @@
     height: 25px;
     background-image: url("./img/open-purple.svg");
     background-size: contain;
+    float: right;
 }
 
 .item-css:nth-child(even):after {
@@ -27,4 +28,9 @@
     height: 25px;
     background-image: url("./img/open.svg");
     background-size: contain;
+    float: right
+}
+li:last-child {
+   
+    margin-bottom: 0;
 }
